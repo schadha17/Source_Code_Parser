@@ -82,7 +82,6 @@ def check_single_line_comment(line, syntax):
     if(single_line_comment_syntax in line):
         stats["num_single_comment_lines"]+= 1
 
-
 '''
 Function Name: 
     check_todos
